@@ -1,14 +1,14 @@
 type = "webpack"
 webpack_config = "webpack.config.js"
 name = "mojang_api_v2"
-account_id = "301982b3799377b8f6c0fbeeed3ee65f"
-zone_id = "1233d7f70968e8751cfd90318ae4c54c"
+account_id = "6a0d9a9609160dc2360bbe40dc81f65a"
+zone_id = "d1d24c62b0cdd75e489dac150c7c77bc"
 routes = [
-    "api.ashcon.app/mojang/v2*"
+    "api.capollomedia.net/mojang/v2*"
 ]
 kv_namespaces = [
-    { binding = "USERS", id = "ba64684b6f3c44778748d3e3010a81dd", preview_id = "ba64684b6f3c44778748d3e3010a81dd" },
-    { binding = "NAMES", id = "f4e19fdf2b2c43d4869071de5e1c59f8", preview_id = "f4e19fdf2b2c43d4869071de5e1c59f8" },
-    { binding = "BIRTHDAYS", id = "297276ad8bd3474b8344558da7f8e5f0", preview_id = "297276ad8bd3474b8344558da7f8e5f0" },
-    { binding = "AVATARS", id = "360dd7a808454c228457118f18ee4a88", preview_id = "360dd7a808454c228457118f18ee4a88" }
+    { binding = "USERS", id = "9d416825dbb24d55856f87dd637d80bb", preview_id = "9d416825dbb24d55856f87dd637d80bb" },
+    { binding = "NAMES", id = "9e2704b34c75488eabda8862c6d8840c", preview_id = "9e2704b34c75488eabda8862c6d8840c" },
+    { binding = "BIRTHDAYS", id = "c7165997738f418d92fad899da2595aa", preview_id = "c7165997738f418d92fad899da2595aa" },
+    { binding = "AVATARS", id = "e2c329c70dc44109a0adcb6e1b630353", preview_id = "e2c329c70dc44109a0adcb6e1b630353" }
 ]
